@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gantt chart</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gantt">
+            <div class="gantt__row gantt__row--months">
+                <div class="gantt__row-first"></div>
+                <span>07.10.2019</span><span>30.11.2019</span><span>01.12.2019</span><span>15.12.2019</span>
+                <span>31.12.2019</span><span>01.01.2020</span><span>30.01.2020</span>
+                <span>30.03.2020</span><span>30.04.2020</span>
+                <span>15.05.2020</span><span>16.05.2020</span><span>01.06.2020</span>
+            </div>
+            <div class="gantt__row gantt__row--lines" data-month="5">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+                <span></span><span ></span><span></span>
+                <span></span><span></span><span></span>
+            </div>
+            <div class="gantt__row">
+                <div class="gantt__row-first">
+                    Finance
+                </div>
+                <ul class="gantt__row-bars">
+                    <li style="grid-column: 1/1; background-color: #2ecaac;">Budget proposal</li>
+                </ul>
+            </div>
+            <div class="gantt__row">
+                <div class="gantt__row-first">
+                    Programme
+                </div>
+                <ul class="gantt__row-bars">
+                    <li style="grid-column: 1/3; background-color: #fc4a1a;">Draft concept</li>
+                    <li style="grid-column: 3/8; background-color: #fc4a1a;">key-note speakers and lecturers contacted</li>
+                </ul>
+            </div>
+            <div class="gantt__row">
+                <div class="gantt__row-first">
+                    Orga/Admission
+                </div>
+                <ul class="gantt__row-bars">
+                    <li style="grid-column: 1/6; background-color: #54c6f9;">Call for applications</li>
+                    <li style="grid-column: 6/10; background-color: #54c6f9;" >First acceptance notifiation to applicants</li>
+                    <li style="grid-column: 6/11; background-color: #54c6f9;">First deadline for acceptance</li>
+                    <li style="grid-column: 9/12; background-color: #54c6f9;">Second acceptance notifiation to applicants</li>
+                    <li style="grid-column: 10/13; background-color: #54c6f9;">Second deadline for acceptance</li>
+                    <li style="grid-column: 6/14; background-color: #54c6f9;" class="stripes">Admission procedure</li>
+                </ul>
+            </div>
+            <div class="gantt__row">
+                <div class="gantt__row-first">
+                    Advertising
+                </div>
+                <ul class="gantt__row-bars">
+                        <li style="grid-column: 1/5; background-color: #f7b733;">Website for programme, CfA, admission procedure</li>
+                        <li style="grid-column: 3/9; background-color: #f7b733;">Posted advertisement(Posters,Flyers)</li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>
